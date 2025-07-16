@@ -106,6 +106,8 @@ h2{
 }
 
 .location{
+    display:flex;
+    flex-wrap: wrap;
     margin-top: 1%;
     margin-left: 18%;
     margin-right: 58%;
@@ -146,10 +148,12 @@ h2{
 }
 
 .products{
+    flex:1;
+    width: 20%;
     margin-top: 1%;
     margin-left: 35%;
     margin-right: 48%;
     border: 0.5px solid  #7f7676;
     border-radius: 10px;
-    text-align: center;
+    text-align:start;
 }
